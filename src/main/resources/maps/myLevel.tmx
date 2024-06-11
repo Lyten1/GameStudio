@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="44">
+ <tileset firstgid="1" name="tileset" tilewidth="16" tileheight="16" tilecount="500" columns="20">
+  <image source="tilesets/tileset01.png" width="320" height="400"/>
+ </tileset>
+ <tileset firstgid="501" name="tileset2" tilewidth="16" tileheight="16" tilecount="500" columns="20">
+  <image source="tilesets/tileset02.png" width="320" height="400"/>
+ </tileset>
+ <layer id="1" name="background" width="30" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAE62XS0oDQRCGx+6l4hPEhRt1I27cuXBjfECCoEZ8ICgKPkBFUNyooG58XEFyiCw9QHIFvYN3UEz8G7uxUqnu6YxZfFhJ9/Q3Vd01E2sqSaoRfLdxXh2UwIiHFZ0kRbAKyvg8DPKMJd34uSzMKRDy1hnyHmDNQ3BEvDOIc2AWTAmOdnivsPY1uCHeNcTrYEPLLhrP6+Z7iPFSeJ1p3s41h3hPJTkTn3fIzv96ad7Ou4l4lzkWhJyddyiDl/IBKpY+/Rcb3m29KcbZw+YZnsCzauwLs17VrsPrfKd+KYJjS9FS9nhLnhxoTT6xV19ggZwbWmfJmwOzkV6pL8x4t6kL2FJynzgn9a6DDdAPz3DSSK+Oy3cUjIEzwVtje1Qn/hNyP5TYOru4opu9/PqSxyV5F+01b6r5jA2kPAdjvVfq7xzwfE18DM8JOPU8a9K8Un9UiJN7x+1e35rzCe493n4drge/D/7eyCs539Bec6bpmogLQJFx2uOten19xtfcxt8dMEjmSO+QLF7KhEVaM/Q8kLxSHnyc92va+Xe8aNnreonXhnsnk9bOQGy+aXXm3oonP84UW9PXb766ZclX2ruY3qE5UW9or9/J9XTvliPfg5RO5jVxV+T+OPaZl9aC5/HtqXsWL63za0djLfg10ju3XV76/SWb9+HZQ5N7yHuO8YvA87nAvue/CbNg1n2A8zHgpfl2pdSoFW9ozNSQ/9/kfjv+h9AaZn9+ADcB2UAQDgAA
+  </data>
+ </layer>
+ <layer id="2" name="walls" width="30" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAE9WXMQ7CMAxFW+X+96PAkAWRkSOgDhXGsn9s11HgS3+pXL/ESeq0lWVpk6yplo9RHNVzxXl2/SqXCsVRlsSVcmVzH5O4N0O+TC6yxn2t3z5En+1xWh4kxPW8909cyWe5lvXkyphvpB6ca9mPo7g9RerOY6JcTz0kRbiWcWVwM87rbC7tqZFztBXdI7ln1TrjG8319LHN2Dd7XGv/lbjevku5FyeX36W0+Ue41nkgLlqPo86VxVj3UjZXyq8Z1bkqua1cqyjHy+19czxcTdr/0nH/8frKfAexb28LgXIQDgAA
+  </data>
+ </layer>
+ <objectgroup id="3" name="actors">
+  <object id="1" name="ellen" type="ripley" x="48.1494" y="47.1072" width="32" height="32"/>
+  <object id="15" name="access card" x="319.223" y="377.105" width="16" height="16"/>
+  <object id="19" name="energy" x="353.968" y="242.444" width="16" height="16"/>
+  <object id="22" name="ventil" type="waiting2" x="303.455" y="432.285" width="32" height="32"/>
+  <object id="23" name="breakable door" type="waiting2" x="319.618" y="63.8788" width="16" height="32"/>
+  <object id="25" name="energy" x="286.545" y="376.926" width="16" height="16"/>
+  <object id="26" name="beacon" type="waiting2" x="399.538" y="15.7972" width="48.6603" height="32.6669"/>
+  <object id="28" name="energy" x="449.259" y="111.814" width="16" height="16"/>
+  <object id="29" name="energy" x="449.387" y="96.3572" width="16" height="16"/>
+  <object id="30" name="ammo" x="416.598" y="128.088" width="16" height="16"/>
+  <object id="31" name="ammo" x="432.845" y="127.831" width="16" height="16"/>
+  <object id="32" name="ventil" type="waiting2" x="431.868" y="270.849" width="32" height="32"/>
+  <object id="34" name="ammo" x="273.019" y="320.661" width="16" height="16"/>
+  <object id="38" name="locker" x="16.6675" y="432.911" width="16" height="16"/>
+  <object id="42" name="darkzone" x="350.565" y="159.915" width="80" height="48"/>
+  <object id="43" name="darkzone" x="290.072" y="109.978" width="80" height="48"/>
+ </objectgroup>
+</map>
